@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import toDo from './Databank';
+import Databank from './Databank';
+import ToDoList from './ToDoList';
 
+
+console.log(toDo.list)
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>To do list</h1>
+      <ToDoList imgSrcB={toDo.images.check} li1={toDo.list[0]} imgSrcA={toDo.images.gym} />
+      <ToDoList li1={toDo.list[1]} />
+      <ToDoList li1={toDo.list[2]} />
     </div>
   );
 }
