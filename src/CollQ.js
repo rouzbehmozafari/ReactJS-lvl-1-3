@@ -1,9 +1,9 @@
 import React from 'react';
 
-const CollQ = () => {
+const CollQ = (props) => {
     return ( 
         <div className="q">
-            <span></span>
+            <span>{props.q}</span>
             <span>+</span>
         </div>
      );

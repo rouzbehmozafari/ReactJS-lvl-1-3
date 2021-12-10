@@ -1,9 +1,9 @@
 import React from 'react';
 
-const CollA = (propsA) => {
+const CollA = (props) => {
     return ( 
         <div className="a">
-            <span></span>
+            <span>{props.a}</span>
             <span>-</span>
         </div>
      );
