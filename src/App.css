@@ -1,8 +1,16 @@
-/* p::before {
-  content: url(https://image.shutterstock.com/image-vector/check-icon-vector-mark-list-260nw-1240027354.jpg);
-  
 
-} */
-.toDo, h1 {
+h1 {
   text-align: center;
+}
+img {
+  width: 100%;
+}
+.itemsAll{
+  justify-content: space-around;
+
+  text-align: center;
+  display: flex;
+}
+.items {
+  width: 25%;
 }
