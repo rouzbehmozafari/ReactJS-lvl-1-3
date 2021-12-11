@@ -1,16 +1,18 @@
-
-h1 {
-  text-align: center;
-}
-img {
-  width: 100%;
-}
-.itemsAll{
-  justify-content: space-around;
-
-  text-align: center;
+.a , .q {
   display: flex;
+  justify-content: space-between;
+  width: 50%;
+  color: rgb(39, 207, 39);
+
 }
-.items {
-  width: 25%;
+body  {
+  background-color: #5d3ede;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.25) 0px, rgba(255, 255, 255, 0.25) 1px, transparent 1px, transparent 100%), linear-gradient(rgba(255, 255, 255, 0.25) 0px, rgba(255, 255, 255, 0.25) 1px, transparent 1px, transparent 100%);
+  background-size: calc(8.33333vw) calc(8.33333vw);
+}
+.collapse {
+  padding: 1%;
+}
+.q {
+  padding-bottom: 1%;
 }

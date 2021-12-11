@@ -5,9 +5,11 @@ import CollQ from './CollQ';
 
 const Collapse = (props) => {
   return (
-    <Collapsible trigger={<CollQ q={props.q} />}>
-      <CollA  a={props.a} />
-    </Collapsible>
+    <div className="collapse">
+      <Collapsible trigger={<CollQ q={props.q} />}>
+        <CollA  a={props.a} />
+      </Collapsible>
+    </div>
   );
 };
 
